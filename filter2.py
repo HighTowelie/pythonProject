@@ -13,3 +13,7 @@ print(list(filter(check, random_list)))
 
 for value in filter(check, random_list):
     print(value)
+
+
+
+print('test')
