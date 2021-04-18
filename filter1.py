@@ -1,4 +1,5 @@
 import random
+
 #
 # n = 100
 # random_list = [random.randint(-100, 100) for _ in range(n)]
@@ -7,6 +8,7 @@ import random
 #     count
 # print(filter(random_list))
 
+from itertools import count
 
 def pow_2(num):
     return num ** 2
@@ -19,4 +21,11 @@ if __name__ == '__main__':
 
 
 for _ in range(10):
-    print(next(iter_even_pow_2))
+    print(next(iter_pow_2))
+
+print("-" * 20)
+
+for num in iter_pow_2:
+    print(num)
+    if num > 1000000:
+        break
