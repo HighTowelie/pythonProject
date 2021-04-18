@@ -18,3 +18,8 @@ print(list(map(my_round, my_floats)))
 print(list(map(round, my_floats, [2] * len(my_floats))))
 print(list(map(round, my_floats, repeat(2))))
 
+shit = [round(nums, 2) for nums in my_floats]
+print(shit)
+
+
+
