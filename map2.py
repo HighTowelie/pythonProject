@@ -9,3 +9,7 @@ if __name__ == '__main__':
     ]
 
     print(tuple(map(int, num_list)))
+
+
+shit = [int(nums) for nums in num_list]
+print(shit)
