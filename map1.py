@@ -3,7 +3,6 @@ def get_distance(point):
     y = point[1]
     return (x ** 2 + y ** 2) ** 0.5
 
-
 if __name__ == '__main__':
     pts = [
         (4.5, 3),
@@ -13,3 +12,7 @@ if __name__ == '__main__':
     ]
 
     print(max(map(get_distance, pts)))
+
+
+aw = [(number_1[0] ** 2 + number_1[1] ** 2) ** 0.5 for number_1 in pts]
+print(max(aw))
