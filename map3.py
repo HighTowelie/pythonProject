@@ -4,6 +4,7 @@ from itertools import repeat
 def my_round(num):
     return round(num,2)
 
+lambda num: round(num,2)
 
 my_floats = [
     4.356345,
@@ -14,7 +15,8 @@ my_floats = [
     8.884234235,
     4.595235346645
 ]
-print(list(map(my_round, my_floats)))
+print(list(map(lambda num: round(num,2)
+, my_floats)))
 print(list(map(round, my_floats, [2] * len(my_floats))))
 print(list(map(round, my_floats, repeat(2))))
 
