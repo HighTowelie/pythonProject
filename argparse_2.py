@@ -17,3 +17,6 @@ if __name__ == "__main__":
         print(count_line)
         for _ in range(count_line):
             print(next(f))
+
+            https: // www.notion.so / 3 - 3
+            fe79a24f03045b8b27cca65ed6fa05c
